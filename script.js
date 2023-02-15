@@ -24,7 +24,6 @@ let songs = [
     {songName: "Baarat - Ritviz & Nucleya", filePath: "songs/12.mp3", coverPath: "covers/12.jpg"},
     {songName: "Firiye Dao - Miles", filePath: "songs/13.mp3", coverPath: "covers/13.jpg"},
 ]
-
 songItems.forEach((element, i)=>{ 
     element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
     element.getElementsByClassName("songName")[0].innerText = songs[i].songName; 
