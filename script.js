@@ -22,6 +22,7 @@ let songs = [
     {songName: "Bolo Na Radhika - Monali Thakur | Ritam Sen | Prasen", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
     {songName: "Bahu Manaratha - Subhomita Banerjee", filePath: "songs/11.mp3", coverPath: "covers/11.jpg"},
     {songName: "Baarat - Ritviz & Nucleya", filePath: "songs/12.mp3", coverPath: "covers/12.jpg"},
+    {songName: "Firiye Dao - Miles", filePath: "songs/13.mp3", coverPath: "covers/13.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
